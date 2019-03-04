@@ -57,12 +57,12 @@ _start:
 	//
 	//b bl
 	//
-	bl	lable01
+	bl	label01
 
 sleep:
 	b	sleep
 
-lable01:
+label01:
 	nop
 	nop
 	bx	lr
